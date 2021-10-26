@@ -47,16 +47,38 @@
         </div>
         <br>
         <div>
-          <span>Yes or No</span>
+          <span>Yes or No:</span>
           <input type="radio" id="yes" name="answer" value="yes" required>  
           <label for="yes">Yes</label>
           <input type="radio" id="no" name="answer" value="no">  
           <label for="no">No</label>          
         </div>
-        <br>    
+        <br> 
+        <div>
+          <label for="speed">Relative speed (ends in -er):</label>
+          <select name="speed" id="speed" required>
+            <option value="faster">Faster</option>
+            <option value="slower">Slower</option>
+          </select>      
+        </div>
+        <br> 
+        <div>
+          <label for="quote">Motivational Quote:</label>
+          <input type="text" id="quote" name="quote" list="quote-choices" required>
+          <datalist class="quote-choices">
+            <option value="winner gets ice cream!"></option>
+          </datalist>
+        </div>
+        <br>
+        <div>
+          <label for="message">Meaningful Message:</label>
+          <textarea name="message" id="message" cols="40" rows="8" required></textarea>
+        </div> 
+        <br>                    
         <div>
           <input type="submit" value="Form My Story!">
-        </div>      
+        </div>
+    
 
       </form>
     </section>

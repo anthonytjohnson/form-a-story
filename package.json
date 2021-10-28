@@ -1,0 +1,24 @@
+{
+  "name": "form-a-story",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonytjohnson/form-a-story.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anthonytjohnson/form-a-story/issues"
+  },
+  "homepage": "https://anthonytjohnson.github.io/form-a-story",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
